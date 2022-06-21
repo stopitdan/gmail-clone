@@ -6,7 +6,7 @@ import Help from '@mui/icons-material/Help';
 import Contacts from '@mui/icons-material/Contacts';
 import SearchBar from './SearchBar'
 
-import contactData from '../data/contacts';
+import contactData from '../../data/contacts';
 
 // Styles
 import './Header.css';

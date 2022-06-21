@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import foldersData from '../data/folders';
+import foldersData from '../../data/folders';
 import Add from '@mui/icons-material/Add';
 
 import './Sidebar.css'
