@@ -1,0 +1,8 @@
+.message-window {
+	position: fixed;
+	top: 64px;
+	bottom: 0;
+	left: 256px;
+	right: 0;
+	background-color: #030303;
+}

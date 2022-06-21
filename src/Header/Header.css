@@ -1,0 +1,98 @@
+.header-wrapper {
+	height: 47px;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px;
+	background-color: #111111;
+	border-bottom: 1px solid #323232;
+}
+
+.left-header {
+	/* 256 pixels is the width of the sidebar, so the searchbar and sidebar are the same margin left */
+	width: 256px;
+	display: inline-flex;
+}
+
+.sidebar-icon {
+	height: 24px;
+	width: 24px;
+	padding: 12px;
+	color: white;
+}
+
+.gmail-icon {
+	display: flex;
+	align-items: center;
+	margin-left: 8px;
+}
+
+.gmail-icon > img {
+	height: 40px;
+}
+
+.search-bar {
+	width: 100%;
+	max-width: 568px;
+}
+
+.search-input, .search-input > input {
+	width: 100%;
+	background-color: #474747 !important;
+	height: 46px !important;
+	padding: 0 16px !important;
+}
+
+.search-input > * {
+	background-color: #474747 !important;
+	color: white !important;
+}
+
+.right-header {
+	align-self: flex-end;
+	display: flex;
+}
+
+.right-icon {
+	height:48px;
+	width: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white !important;
+}
+
+.profile-pic {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: lightgreen;
+}
+
+.contacts-wrapper {
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.contacts-dropdown {
+	position: absolute;
+	right: 0px;
+	color: white !important;
+	background-color: #111111;
+	box-shadow: inset 0 -1px 0 0 rgb(255 255 255 / 12%);
+}
+
+.contact-row {
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 8px 16px;
+	border-bottom: 1px solid #323232;
+}

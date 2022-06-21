@@ -1,4 +1,4 @@
-[
+const folders = [
   "Inbox",
   "Trash",
   "Work Emails",
@@ -8,3 +8,4 @@
   "Drafts",
   "Personal"
 ]
+ export default folders;

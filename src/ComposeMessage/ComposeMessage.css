@@ -1,0 +1,40 @@
+.compose-message {
+	background-color: white;
+	color: black;
+	position: fixed;
+	bottom: 0;
+	right: 32px;
+	width: 500px;
+	height: 550px;
+	z-index: 2;
+	padding: 0 16px;
+}
+
+.compose-to, .compose-subject {
+	height: 20px;
+	padding: 8px;
+	color: lightgrey;
+	display: block;
+	border-bottom: 1px solid lightgrey;
+	/* width: 100%; */
+}
+
+.compose-body {
+	height: 400px;
+	padding: 8px;
+	position: relative;
+}
+
+.compose-body > textarea {
+	height: calc(100% - 16px);
+	width: 100%;
+}
+
+.send-button {
+	display: inline-block;
+	background-color: #1a73e8;
+	color: white;
+	font-size: 20px;
+	padding: 8px 16px;
+	cursor: pointer;
+}

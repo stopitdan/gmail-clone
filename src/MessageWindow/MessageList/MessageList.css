@@ -1,0 +1,41 @@
+.no-messages {
+	color: white;
+	margin-top: 32px;
+}
+
+.message-row {
+	height: 20px;
+	padding: 10px 8px;
+	background-color: #303030;
+	display: flex;
+	color: white;
+	cursor: pointer;
+}
+
+.message-row:hover {
+	box-shadow: inset 0 -1px 0 0 rgb(255 255 255 / 12%);
+}
+
+.message-row-icon {
+	color: #525252 !important;
+}
+
+.label-important {
+	fill: transparent !important;
+}
+
+.icons {
+	width: 110px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.from {
+	font-weight: 700;
+	text-align: start;
+	width: 200px;
+	padding-right: 40px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

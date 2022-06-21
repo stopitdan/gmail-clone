@@ -1,0 +1,50 @@
+.sidebar {
+	background-color: #111111;
+	width: 256px;
+	position: fixed;
+	left: 0;
+	top: 64px;
+	height: calc(100% - 64px);
+}
+
+.compose-new {
+	background-color: white;
+	border-radius: 32px;
+	padding: 8px 32px;
+	font-size: 14px;
+	color: black;
+	align-items: center;
+	display: inline-flex;
+	margin: 16px 0;
+	margin-left: 16px;
+	cursor: pointer;
+}
+
+.siderbar-section {
+	border-bottom: 1px solid #303030;
+
+}
+
+.folder-title {
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	height: 32px;
+	padding-left: 26px;
+	padding-right: 12px;
+	border-top-right-radius: 32px;
+	border-bottom-right-radius: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-right: 16px;
+}
+
+.folder-title.selected {
+	background-color: #595959;
+}
+
+.folder-title:hover:not(.selected) {
+	background-color: #303030;
+}

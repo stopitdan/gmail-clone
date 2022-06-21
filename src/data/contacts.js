@@ -1,4 +1,4 @@
-[
+const contacts = [
     {
         "name": "Grace Hopper",
         "email": "grace.hopper@example.com",
@@ -24,3 +24,5 @@
     }
 
 ]
+
+export default contacts;

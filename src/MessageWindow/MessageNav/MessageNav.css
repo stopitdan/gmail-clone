@@ -1,0 +1,19 @@
+.message-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #111111;
+	height: 48px;
+	color: grey;
+	padding: 0 16px;
+}
+
+.message-count {
+	float: right;
+	margin-right: 32px;
+	color: grey;
+}
+
+.back-icon {
+	cursor: pointer
+}
