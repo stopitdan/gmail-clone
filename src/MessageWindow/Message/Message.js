@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import messages from '../../../data/messages';
+import messages from '../../data/messages';
 
 
 import './Message.css';

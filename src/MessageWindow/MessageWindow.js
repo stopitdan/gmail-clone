@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import folderMessages from '../../data/folder-messages';
+import folderMessages from '../data/folder-messages';
 
 
 import MessageNav from './MessageNav/MessageNav';
